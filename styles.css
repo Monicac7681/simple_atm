@@ -1,0 +1,45 @@
+button {
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  width: 150px;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #0072B5;
+}
+
+form {
+  background-color: rgb(243, 242, 242);
+  border-style: groove;
+  padding: 15px;
+  height: 50vh;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  font-family: 'Roboto mono'
+}
+
+.fa-minus-circle{
+  color: red;
+}
+
+.fa-minus-circle:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.input{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  margin : 0 auto;
+}
